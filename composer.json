@@ -1,0 +1,23 @@
+{
+    "name": "jarod2011/taobao-concurrent-client",
+    "type": "library",
+    "require": {
+        "jarod2011/simple-concurrent-request-client": "^1.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarod",
+            "email": "xinghen_tj@qq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/TaobaoConcurrent.php"
+        ],
+        "psr-4": {
+            "SimpleConcurrent\\Taobao\\TBK\\": "src/tbk/",
+            "SimpleConcurrent\\Taobao\\WIRELESS\\": "src/wireless/"
+        }
+    }
+}
