@@ -2,7 +2,7 @@ TaobaoConcurrentClient
 ============
 [![GitHub license](https://img.shields.io/github/license/jarod2011/TaobaoConcurrentClient.svg)](https://github.com/jarod2011/TaobaoConcurrentClient/blob/master/LICENSE)
 
-TaobaoConcurrentClient是一个基于[SimpleConcurrentRequestClient](https://github.com/jarod2011/SimpleConcurrentRequestClient)完成的淘宝常用接口项目。目前已支持以下接口
+[TaobaoConcurrentClient](https://packagist.org/packages/jarod2011/taobao-concurrent-client)是一个基于[SimpleConcurrentRequestClient](https://github.com/jarod2011/SimpleConcurrentRequestClient)完成的淘宝常用接口项目。目前已支持以下接口
 
 1. CouponInfoRequest [阿里妈妈推广券信息查询](http://open.taobao.com/api.htm?docId=31106&docType=2)
 2. ItemInfoRequest [淘宝客商品详情（简版）](http://open.taobao.com/api.htm?docId=24518&docType=2)
@@ -14,6 +14,11 @@ TaobaoConcurrentClient是一个基于[SimpleConcurrentRequestClient](https://git
 8. UatmEventListRequest [枚举正在进行中的定向招商的活动列表](http://open.taobao.com/api.htm?docId=26449&docType=2&source=search)
 9. Url2TklRequest [淘宝客淘口令](http://open.taobao.com/api.htm?source=search&docId=31127&docType=2)
 10. TklDecodeRequest [查询解析淘口令](http://open.taobao.com/api.htm?source=search&docId=32461&docType=2)
+
+#### 安装
+```bash
+composer require jarod2011/taobao-concurrent-client
+```
 
 #### 使用前需要配置接口的app_key app_secret
 ```php
