@@ -4,16 +4,17 @@ TaobaoConcurrentClient
 
 [TaobaoConcurrentClient](https://packagist.org/packages/jarod2011/taobao-concurrent-client)是一个基于[SimpleConcurrentRequestClient](https://github.com/jarod2011/SimpleConcurrentRequestClient)完成的淘宝常用接口项目。目前已支持以下接口
 
-1. CouponInfoRequest [阿里妈妈推广券信息查询](http://open.taobao.com/api.htm?docId=31106&docType=2)
-2. ItemInfoRequest [淘宝客商品详情（简版）](http://open.taobao.com/api.htm?docId=24518&docType=2)
-3. ItemRecommendRequest [淘宝客商品关联推荐查询](http://open.taobao.com/api.htm?spm=a219a.7386797.0.0.ybRDkn&source=search&docId=24517&docType=2)
-4. ItemSearchRequest [淘宝客商品查询](http://open.taobao.com/api.htm?docId=24515&docType=2&source=search)
-5. JuTqgListRequest [淘抢购api](http://open.taobao.com/api.htm?spm=a219a.7386797.0.0.2d912cbf8dif1B&source=search&docId=27543&docType=2)
-6. PrivilegeRequest [单品券高效转链API](http://open.taobao.com/api.htm?docId=28625&docType=2)
-7. ShopInfoRequest [淘宝客店铺查询](http://open.taobao.com/api.htm?source=search&docId=24521&docType=2)
-8. UatmEventListRequest [枚举正在进行中的定向招商的活动列表](http://open.taobao.com/api.htm?docId=26449&docType=2&source=search)
-9. Url2TklRequest [淘宝客淘口令](http://open.taobao.com/api.htm?source=search&docId=31127&docType=2)
-10. TklDecodeRequest [查询解析淘口令](http://open.taobao.com/api.htm?source=search&docId=32461&docType=2)
+1. SimpleConcurrent\Taobao\TBK\CouponInfoRequest [阿里妈妈推广券信息查询](http://open.taobao.com/api.htm?docId=31106&docType=2)
+2. SimpleConcurrent\Taobao\TBK\ItemInfoRequest [淘宝客商品详情（简版）](http://open.taobao.com/api.htm?docId=24518&docType=2)
+3. SimpleConcurrent\Taobao\TBK\ItemRecommendRequest [淘宝客商品关联推荐查询](http://open.taobao.com/api.htm?spm=a219a.7386797.0.0.ybRDkn&source=search&docId=24517&docType=2)
+4. SimpleConcurrent\Taobao\TBK\ItemSearchRequest [淘宝客商品查询](http://open.taobao.com/api.htm?docId=24515&docType=2&source=search)
+5. SimpleConcurrent\Taobao\TBK\JuTqgListRequest [淘抢购api](http://open.taobao.com/api.htm?spm=a219a.7386797.0.0.2d912cbf8dif1B&source=search&docId=27543&docType=2)
+6. SimpleConcurrent\Taobao\TBK\PrivilegeRequest [单品券高效转链API](http://open.taobao.com/api.htm?docId=28625&docType=2)
+7. SimpleConcurrent\Taobao\TBK\ShopInfoRequest [淘宝客店铺查询](http://open.taobao.com/api.htm?source=search&docId=24521&docType=2)
+8. SimpleConcurrent\Taobao\TBK\UatmEventListRequest [枚举正在进行中的定向招商的活动列表](http://open.taobao.com/api.htm?docId=26449&docType=2&source=search)
+9. SimpleConcurrent\Taobao\TBK\Url2TklRequest [淘宝客淘口令](http://open.taobao.com/api.htm?source=search&docId=31127&docType=2)
+10. SimpleConcurrent\Taobao\WIRELESS\TklDecodeRequest [查询解析淘口令](http://open.taobao.com/api.htm?source=search&docId=32461&docType=2)
+11. SimpleConcurrent\Taobao\WIRELESS\Url2TklRequest [生成淘口令](http://open.taobao.com/api.htm?spm=a219a.7386797.0.0.ecea2cbftl06Z3&source=search&docId=26520&docType=2)
 
 #### 安装
 ```bash
