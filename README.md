@@ -15,6 +15,8 @@ TaobaoConcurrentClient
 9. SimpleConcurrent\Taobao\TBK\Url2TklRequest [淘宝客淘口令](http://open.taobao.com/api.htm?source=search&docId=31127&docType=2)
 10. SimpleConcurrent\Taobao\WIRELESS\TklDecodeRequest [查询解析淘口令](http://open.taobao.com/api.htm?source=search&docId=32461&docType=2)
 11. SimpleConcurrent\Taobao\WIRELESS\Url2TklRequest [生成淘口令](http://open.taobao.com/api.htm?spm=a219a.7386797.0.0.ecea2cbftl06Z3&source=search&docId=26520&docType=2)
+12. SimpleConcurrent\Taobao\TBK\ScOrderGetRequest [淘宝客订单查询 - 社交](http://open.taobao.com/api.htm?docId=38078&docType=2&scopeId=14814)
+13. SimpleConcurrent\Taobao\TBK\ScAdzoneCreateRequest [提供工具使用的创建广告位接口](http://open.taobao.com/api.htm?docId=34751&docType=2&scopeId=13878)
 
 #### 安装
 ```bash

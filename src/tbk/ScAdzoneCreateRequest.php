@@ -29,7 +29,14 @@ class ScAdzoneCreateRequest extends TaobaoRequest
         return 'taobao.tbk.sc.adzone.create';
     }
     
-    public static function build($site_id, $adzone_name, $session = ''): self
+    /**
+     * @param int $site_id
+     * @param string $adzone_name
+     * @param string $session
+     * @throws TaobaoResponseException
+     * @return self
+     */
+    public static function build(int $site_id, $adzone_name, $session = ''): self
     {
         $session = $session ? $session : static::$session;
         if (! $session) throw new TaobaoResponseException('user session is necessary');
