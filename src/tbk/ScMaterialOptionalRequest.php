@@ -245,4 +245,15 @@ class ScMaterialOptionalRequest extends TaobaoRequest
         $this->condition['sort'] = 'tk_total_commi_' . ($isDesc ? 'des' : 'asc');
         return $this;
     }
+    
+    /**
+     * sort result by price
+     * @param bool $isDesc
+     * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
+     */
+    public function sortByPrice(bool $isDesc = false)
+    {
+        $this->condition['sort'] = 'price_' . ($isDesc ? 'des' : 'asc');
+        return $this;
+    }
 }
