@@ -179,7 +179,7 @@ class ScMaterialOptionalRequest extends TaobaoRequest
      * define the link style (1: pc 2: wireless)
      * default value is 2
      * @param int $platform
-     * @return \SimpleConcurrent\Taobao\TBK\ItemSearchRequest
+     * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
      */
     public function platform(int $platform = 2)
     {
@@ -205,9 +205,9 @@ class ScMaterialOptionalRequest extends TaobaoRequest
     /**
      * sort result by items sales
      * @param bool $isDesc
-     * @return \SimpleConcurrent\Taobao\TBK\ItemSearchRequest
+     * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
      */
-    public function sortBySales(bool $isDesc = true)
+    public function sortBySales(bool $isDesc = true):self
     {
         $this->condition['sort'] = 'total_sales_' . ($isDesc ? 'des' : 'asc');
         return $this;
@@ -216,9 +216,9 @@ class ScMaterialOptionalRequest extends TaobaoRequest
     /**
      * sort result by commission rate
      * @param bool $isDesc
-     * @return \SimpleConcurrent\Taobao\TBK\ItemSearchRequest
+     * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
      */
-    public function sortByCommissionRate(bool $isDesc = true)
+    public function sortByCommissionRate(bool $isDesc = true):self
     {
         $this->condition['sort'] = 'tk_rate_' . ($isDesc ? 'des' : 'asc');
         return $this;
@@ -227,9 +227,9 @@ class ScMaterialOptionalRequest extends TaobaoRequest
     /**
      * sort result by tao ke sales
      * @param bool $isDesc
-     * @return \SimpleConcurrent\Taobao\TBK\ItemSearchRequest
+     * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
      */
-    public function sortByTkSales(bool $isDesc = true)
+    public function sortByTkSales(bool $isDesc = true):self
     {
         $this->condition['sort'] = 'tk_total_sales_' . ($isDesc ? 'des' : 'asc');
         return $this;
@@ -238,9 +238,9 @@ class ScMaterialOptionalRequest extends TaobaoRequest
     /**
      * sort result by commission
      * @param bool $isDesc
-     * @return \SimpleConcurrent\Taobao\TBK\ItemSearchRequest
+     * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
      */
-    public function sortByCommission(bool $isDesc = true)
+    public function sortByCommission(bool $isDesc = true):self
     {
         $this->condition['sort'] = 'tk_total_commi_' . ($isDesc ? 'des' : 'asc');
         return $this;
@@ -251,7 +251,7 @@ class ScMaterialOptionalRequest extends TaobaoRequest
      * @param bool $isDesc
      * @return \SimpleConcurrent\Taobao\TBK\ScMaterialOptionalRequest
      */
-    public function sortByPrice(bool $isDesc = false)
+    public function sortByPrice(bool $isDesc = false):self
     {
         $this->condition['sort'] = 'price_' . ($isDesc ? 'des' : 'asc');
         return $this;
