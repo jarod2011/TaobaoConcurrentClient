@@ -2,7 +2,7 @@
     "name": "jarod2011/taobao-concurrent-client",
     "type": "library",
     "require": {
-        "jarod2011/simple-concurrent-request-client": "^1.0.1"
+        "jarod2011/simple-concurrent-request-client": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -17,7 +17,8 @@
         ],
         "psr-4": {
             "SimpleConcurrent\\Taobao\\TBK\\": "src/tbk/",
-            "SimpleConcurrent\\Taobao\\WIRELESS\\": "src/wireless/"
+            "SimpleConcurrent\\Taobao\\WIRELESS\\": "src/wireless/",
+            "SimpleConcurrent\\Taobao\\Trades\\": "src/trades"
         }
     }
 }
